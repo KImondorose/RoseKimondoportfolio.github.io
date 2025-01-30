@@ -4689,57 +4689,33 @@ input, select, textarea {
 	}
 
 /* Skill and Projects Section*/
-	#skills-projects {
-		/*background-color: #333; /* Dark background for contrast */
-		color: white; /* White font color */
-		/*margin-top: 0rem;*/
-		/*margin-right: 5rem;*/
-		position: relative;
-		margin: 0 auto;
-		width: calc(100% - 4rem);
-		max-width: 72rem;
-		z-index: 2;
-		text-align: left;
-	}
 
 
-	#skills-projects h2 {
-		text-align: center; /* Center the title */
-		margin-bottom: 2rem;
-		color: white; /* White font color */ 
-	}
 
-	#skills-projects h3 {
-		/*text-align: center; /* Center the title */
-		/* margin-bottom: 2rem;*/
-		color: white; /* White font color */ 
-	}
-	#skills-projects .row {
+	.skills-container {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 2rem;
-	}
-	#skills-projects .col-6 {
-		flex: 1 1 calc(50% - 1rem); /* Two columns with gap */
-	}
-	#skills-projects ul {
-		list-style-type: none; /* Remove bullet points */
-		padding: 0;
-	}
-	#skills-projects ul li {
-		margin-bottom: 0.5rem;
-		text-align: left;
-	}
-
-	#skills-projects {
-		display: flex;
-		flex-direction: column;
-		align-items: left; /* Centers content horizontally */
-		text-align: left; /* Centers text inside the section */
-		width: 80%;
-	}
-	#skills-projects ul, 
-	#skills-projects ul li {
-    	text-align: left !important; /* Forces left alignment */
+		gap: 20px;
+		justify-content: center;
 	}
 	
+	.skills-card {
+		background: #f4f4f4;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+		transition: transform 0.3s ease-in-out;
+		flex: 1 1 calc(50% - 20px); /* Two columns */
+		max-width: 400px;
+	}
+	
+	.skills-card:hover {
+		transform: scale(1.05);
+	}
+	
+	.skills-card h3 {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		font-size: 1.2em;
+	}
