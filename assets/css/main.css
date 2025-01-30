@@ -185,7 +185,7 @@ input, select, textarea {
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
-		text-transform: uppercase;
+		text-transform: none;
 		margin: 0 0 1rem 0;
 	}
 
@@ -4692,15 +4692,12 @@ input, select, textarea {
 	#skills-projects {
 		/*background-color: #333; /* Dark background for contrast */
 		color: white; /* White font color */
-		padding: 2rem;
-		margin-top: 2rem;
-		margin-left: 5rem;
+		margin-top: 0rem;
 		margin-right: 5rem;
 		position: relative;
 		width: calc(100%- 4rem);
 		max-width: 72rem;
 	}
-
 
 	#skills-projects > * {
 		padding: 4rem 4rem 2rem 4rem ;
