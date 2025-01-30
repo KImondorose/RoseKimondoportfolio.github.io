@@ -4694,6 +4694,8 @@ input, select, textarea {
 		color: white; /* White font color */
 		padding: 2rem;
 		margin-top: 2rem;
+		margin-left: 5rem;
+		margin-right: 5rem;
 	}
 	#skills-projects h2 {
 		text-align: center; /* Center the title */
