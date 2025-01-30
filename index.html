@@ -39,7 +39,18 @@
 				<!-- Header -->
 					<header id="header">
 						<a href="index.html" class="logo">Rose Kimondo</a>
+						<a href="#menu" class="menu-button">Menu</a>
 					</header>
+
+					<nav id="menu">
+						<ul>
+							<li><a href="#intro">Home</a></li>
+							<li><a href="#skills-projects">Skills & Projects</a></li>
+							<li><a href="#main">Portfolio</a></li>
+							<li><a href="#footer">Contact</a></li>
+							<li><a href="blog.html">Blog</a></li>
+						</ul>
+					</nav>
 
 				<!-- Skills and Projects Section -->
 				<section id="skills-projects">
@@ -249,5 +260,16 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<script>
+				document.querySelector('.menu-button').addEventListener('click', function(event) {
+					event.preventDefault();
+					var menu = document.getElementById('menu');
+					if (menu.style.display === 'block') {
+						menu.style.display = 'none';
+					} else {
+						menu.style.display = 'block';
+					}
+				});
+				</script>				
 	</body>
 </html>
