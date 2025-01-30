@@ -4698,6 +4698,13 @@ input, select, textarea {
 	#skills-projects h2 {
 		text-align: center; /* Center the title */
 		margin-bottom: 2rem;
+		color: white; /* White font color */ 
+	}
+
+	#skills-projects h3 {
+		/*text-align: center; /* Center the title */
+		/* margin-bottom: 2rem;*/
+		color: white; /* White font color */ 
 	}
 	#skills-projects .row {
 		display: flex;
