@@ -4728,6 +4728,7 @@ input, select, textarea {
 	}
 	#skills-projects ul li {
 		margin-bottom: 0.5rem;
+		text-align: left;
 	}
 
 	#skills-projects {
