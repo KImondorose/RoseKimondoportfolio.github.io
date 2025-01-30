@@ -4699,9 +4699,6 @@ input, select, textarea {
 		max-width: 72rem;
 	}
 
-	#skills-projects > * {
-		padding: 4rem 4rem 2rem 4rem ;
-	}
 
 	#skills-projects h2 {
 		text-align: center; /* Center the title */
