@@ -4687,3 +4687,30 @@ input, select, textarea {
 		}
 
 	}
+
+/* Skill and Projects Section*/
+	#skills-projects {
+		/*background-color: #333; /* Dark background for contrast */
+		color: white; /* White font color */
+		padding: 2rem;
+		margin-top: 2rem;
+	}
+	#skills-projects h2 {
+		text-align: center; /* Center the title */
+		margin-bottom: 2rem;
+	}
+	#skills-projects .row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 2rem;
+	}
+	#skills-projects .col-6 {
+		flex: 1 1 calc(50% - 1rem); /* Two columns with gap */
+	}
+	#skills-projects ul {
+		list-style-type: none; /* Remove bullet points */
+		padding: 0;
+	}
+	#skills-projects ul li {
+		margin-bottom: 0.5rem;
+	}
