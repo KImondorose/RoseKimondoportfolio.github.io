@@ -4692,11 +4692,13 @@ input, select, textarea {
 	#skills-projects {
 		/*background-color: #333; /* Dark background for contrast */
 		color: white; /* White font color */
-		margin-top: 0rem;
-		margin-right: 5rem;
+		/*margin-top: 0rem;*/
+		/*margin-right: 5rem;*/
 		position: relative;
-		width: calc(100%- 4rem);
+		margin: 0 auto;
+		width: calc(100% - 4rem);
 		max-width: 72rem;
+		z-index: 2
 	}
 
 
