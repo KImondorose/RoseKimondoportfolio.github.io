@@ -4692,30 +4692,47 @@ input, select, textarea {
 
 
 
-	.skills-container {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 20px;
-		justify-content: center;
-	}
-	
-	.skills-card {
-		background: #f4f4f4;
-		padding: 20px;
-		border-radius: 10px;
-		box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-		transition: transform 0.3s ease-in-out;
-		flex: 1 1 calc(50% - 20px); /* Two columns */
-		max-width: 400px;
-	}
-	
-	.skills-card:hover {
-		transform: scale(1.05);
-	}
-	
-	.skills-card h3 {
-		display: flex;
-		align-items: center;
-		gap: 10px;
-		font-size: 1.2em;
-	}
+	/* Skills and Projects Section */
+#skills-projects {
+    background: url('../images/skills-bg.jpg') no-repeat center center/cover;
+    padding: 60px 20px;
+}
+
+#skills-projects .container {
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay for readability */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#skills-projects h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#skills-projects h3 {
+    color: #ffcc00;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Skill and Project Lists */
+#skills-projects ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+/* Responsive Layout Adjustments */
+@media screen and (max-width: 768px) {
+    #skills-projects .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #skills-projects .col-6 {
+        width: 100%;
+    }
+}
