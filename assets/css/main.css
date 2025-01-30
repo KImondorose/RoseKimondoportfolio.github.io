@@ -3407,7 +3407,7 @@ input, select, textarea {
 				-ms-transform: translateY(2rem);
 				transform: translateY(2rem);
 				opacity: 0;
-				visibility: hidden;
+				visibility: visible;
 			}
 
 		#intro.hidden {
@@ -4736,37 +4736,4 @@ input, select, textarea {
 		text-align: center; /* Centers text inside the section */
 		width: 100%;
 	}
-	
-	#skills-projects .row {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-	#skills-projects .col-6 {
-		flex: 0 0 48%; /* Each column takes 48% width */
-		box-sizing: border-box;
-	}
-	@media (max-width: 768px) {
-		#skills-projects .col-6 {
-			flex: 0 0 100%; /* Full width on smaller screens */
-		}
-	}
-	
-		
-/*Nav*/
-	#nav {
-		display: none;
-	}
-	#nav.active {
-		display: block;
-	}
-	.menu-toggle {
-		display: block;
-		background-color: #333;
-		color: white;
-		padding: 10px;
-		cursor: pointer;
-		border: none;
-	}
-	
 	
