@@ -3573,7 +3573,7 @@ input, select, textarea {
 			line-height: 1;
 			padding: 1rem 1.75rem;
 			text-transform: uppercase;
-			visibility: visible;
+			visibility: hidden;
 		}
 
 			#header .logo:hover {
@@ -4736,7 +4736,7 @@ input, select, textarea {
 		flex-direction: column;
 		align-items: left; /* Centers content horizontally */
 		text-align: left; /* Centers text inside the section */
-		width: 100%;
+		width: 80%;
 	}
 	#skills-projects ul, 
 	#skills-projects ul li {
