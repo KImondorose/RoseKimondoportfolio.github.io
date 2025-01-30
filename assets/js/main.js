@@ -256,3 +256,17 @@
 		}
 
 })(jQuery);
+
+document.addEventListener("DOMContentLoaded", function () {
+    var navToggle = document.createElement("button");
+    navToggle.classList.add("menu-toggle");
+    navToggle.innerHTML = "☰ Menu";
+    
+    var nav = document.getElementById("nav");
+    if (nav) {
+        nav.parentNode.insertBefore(navToggle, nav);
+        navToggle.addEventListener("click", function () {
+            nav.classList.toggle("active");
+        });
+    }
+});

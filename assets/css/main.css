@@ -4737,40 +4737,36 @@ input, select, textarea {
 		width: 100%;
 	}
 	
-	#skills-projects .container {
-		max-width: 800px; /* Adjust this value as needed */
-		width: 100%;
+	#skills-projects .row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
 	}
-	#skills-projects ul {
-		list-style-type: disc; /* Ensures bullet points appear */
-		margin-left: 20px; /* Indents list for readability */
+	#skills-projects .col-6 {
+		flex: 0 0 48%; /* Each column takes 48% width */
+		box-sizing: border-box;
 	}
+	@media (max-width: 768px) {
+		#skills-projects .col-6 {
+			flex: 0 0 100%; /* Full width on smaller screens */
+		}
+	}
+	
 		
-
-	/*Menu*/
-	#menu {
+/*Nav*/
+	#nav {
 		display: none;
-		position: absolute;
-		top: 50px;
-		right: 20px;
-		background: #fff;
-		padding: 10px;
-		border-radius: 5px;
-		box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 	}
-	
-	#menu ul {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
-	
-	#menu ul li {
-		margin: 10px 0;
-	}
-	
-	.menu-button {
+	#nav.active {
 		display: block;
-		cursor: pointer;
 	}
+	.menu-toggle {
+		display: block;
+		background-color: #333;
+		color: white;
+		padding: 10px;
+		cursor: pointer;
+		border: none;
+	}
+	
 	
