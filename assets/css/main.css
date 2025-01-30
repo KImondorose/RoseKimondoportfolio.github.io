@@ -4734,7 +4734,7 @@ input, select, textarea {
 		display: flex;
 		flex-direction: column;
 		align-items: center; /* Centers content horizontally */
-		text-align: center; /* Centers text inside the section */
+		text-align: left; /* Centers text inside the section */
 		width: 100%;
 	}
 	
