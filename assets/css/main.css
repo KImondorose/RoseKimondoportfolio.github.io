@@ -4745,9 +4745,6 @@ input, select, textarea {
 		list-style-type: disc; /* Ensures bullet points appear */
 		margin-left: 20px; /* Indents list for readability */
 	}
-	#skills-projects .row {
-		display: block;
-	}
 		
 
 	/*Menu*/
