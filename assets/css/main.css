@@ -4738,4 +4738,8 @@ input, select, textarea {
 		text-align: left; /* Centers text inside the section */
 		width: 100%;
 	}
+	#skills-projects ul, 
+	#skills-projects ul li {
+    	text-align: left !important; /* Forces left alignment */
+	}
 	
