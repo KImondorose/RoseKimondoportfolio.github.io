@@ -4696,7 +4696,16 @@ input, select, textarea {
 		margin-top: 2rem;
 		margin-left: 5rem;
 		margin-right: 5rem;
+		position: relative;
+		width: calc(100%- 4rem);
+		max-width: 72rem;
 	}
+
+
+	#skills-projects > * {
+		padding: 4rem 4rem 2rem 4rem ;
+	}
+
 	#skills-projects h2 {
 		text-align: center; /* Center the title */
 		margin-bottom: 2rem;
