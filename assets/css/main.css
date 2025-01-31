@@ -3391,7 +3391,7 @@ input, select, textarea {
 		}
 
 		#intro p {
-			font-size: 1.25rem;
+			font-size: 1rem;
 			font-style: italic;
 			margin-top: -0.25rem;
 			text-align: center;
@@ -4599,13 +4599,13 @@ input, select, textarea {
 #skills-projects h2 {
     text-align: center;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
 #skills-projects h3 {
-    color: #ffcc00;
-    font-size: 1.5rem;
+    color: grey;
+    font-size: 1.2rem;
     margin-bottom: 10px;
 }
 
@@ -4614,7 +4614,7 @@ input, select, textarea {
     list-style: disc;
     padding-left: 20px;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 /* Responsive Layout Adjustments */
