@@ -2679,6 +2679,11 @@ input, select, textarea {
 /* Actions */
 
 	ul.actions {
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		align-items: center;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2691,7 +2696,12 @@ input, select, textarea {
 
 		ul.actions li {
 			padding: 0 0 0 1rem;
+			-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
 			vertical-align: middle;
+			align-items: center;
 		}
 
 		ul.actions.special {
@@ -3286,10 +3296,8 @@ input, select, textarea {
 	#intro {
 		color: #ffffff;
 		padding: 8rem 4rem 6rem 4rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
+		
+		
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3318,13 +3326,14 @@ input, select, textarea {
 		}
 
 		#intro a {
-			color: #ffffff;
+			color: yellow;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
+			font-weight: bold;
 		}
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: white !important;
 			}
 
 		#intro strong, #intro b {
@@ -3392,7 +3401,7 @@ input, select, textarea {
 
 		#intro p {
 			font-size: 1rem;
-			font-style: italic;
+			font-style: normal;
 			margin-top: -0.25rem;
 			text-align: center;
 		}
